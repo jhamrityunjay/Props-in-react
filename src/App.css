@@ -5,27 +5,65 @@
   gap: 10px;
 }
 .Card{
-  border: 2px solid white;
-  width: 350px;
+  border: 2px solid rgb(0, 0, 0);
+  width: 265px;
   padding: 20px;
-  text-align: center;
-  border-radius: 5px;
-  background-color: #222;
+  /* text-align: center; */
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
-.Card img{
-  height: 150px;
-  width: 150px;
+
+button{
+  padding: 10px 20px ;
+  background-color: rgb(157, 154, 154);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+}
+
+.mid-part-button{
+  display: flex;
+  gap: 5px;
+}
+.Top-Part{
+    display: flex;
+    justify-content: space-between;
+}
+.Top-Part img{
+  height: 60px;
+  width: 60px;
   object-fit: cover;
   border-radius: 50%;
 }
-.Card p{
-  padding: 10px;
-
+.Top-Part p{
+border: 1px solid rgb(189, 188, 188);
+padding: 9px 20px;
+border-radius: 10px;
+color: rgb(176, 174, 174);
 }
-.Card button{
-  padding: 10px 20px ;
-  background-color: white;
-  color: black;
-  border: none;
-  border-radius: 5px;
+
+.mid-part{
+color: rgb(36, 36, 36);
+margin-bottom: 50px;
+}
+span{
+  font-size: 14px;
+  color: rgb(153, 152, 152);
+}
+.bottom-part{
+display: flex;
+justify-content: space-between;
+}
+.bottom-part .bottom-part-button button{
+margin-top: 30px;
+background-color: black;
+color: #ffffff;
+}
+.bottom-part-para p{
+  font-size: 14px;
+  color: rgb(153, 152, 152);
+}
+.bottom-part-para h2{
+ margin: 18px 5px 5px 5px;
 }
