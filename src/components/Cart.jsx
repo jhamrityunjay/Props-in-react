@@ -1,13 +1,12 @@
 import React from 'react'
-
+import {Bookmark} from 'lucide-react';
 const Cart = (props) => {
- 
   return (
     <>
     <div className='Card' >
      <div className='Top-Part' >
       <img src={props.img} alt="" />
-      <p>Save</p>
+      <p>Save <Bookmark size={15} /></p>
      </div>
 
      <div className="mid-part">
